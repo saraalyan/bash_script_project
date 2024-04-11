@@ -1,0 +1,45 @@
+.movies-search {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .movies-search input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .movie-column {
+    margin-bottom: 20px;
+  }
+  
+  .movie-card {
+    height: 100%;
+  }
+  
+  .movie-image {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pagination-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination-button:hover {
+    background-color: #0056b3;
+  }
+  
